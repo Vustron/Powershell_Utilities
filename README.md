@@ -2,11 +2,14 @@
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
-This repository contains various PowerShell scripts to assist with common development tasks. Below is the documentation for one of the scripts included in this repository.
+This repository contains various PowerShell scripts that I made for web and mobile development. It also have documentation.
 
-## `cleanup.ps1` 🧹
+## Utilities
 
-The `cleanup.ps1` script is designed to remove specific folders from a given directory. This script was created to address the slow deletion of cache folders in Windows 11 file explorer.
+<details>
+<summary><strong>cleanup.ps1 🧹</strong></summary>
+
+The `cleanup.ps1` script will remove specific folders from a given directory. I made this script because of the slow deletion of cache folders in my nextjs projects on Windows 11 file explorer.
 
 > **Note**: Ensure you have the necessary permissions to delete folders in the specified directory.
 
@@ -52,14 +55,55 @@ The script performs the following steps:
 
 - Use the `-dryRun` switch to preview the folders that will be deleted without actually removing them.
 
+### Cleanup Script Demo
+</details>
+
+<details>
+<summary><strong>initialize_python.ps1 🐍</strong></summary>
+
+The `initialize_python.ps1` script will set up a Python virtual environment, check python versions and create initial Python files. I made this to instantiate python with virtual environments quickly.
+
+> **Note**: Ensure you have Python installed on your system.
+
+### Usage
+
+To run this script in PowerShell, navigate to the directory containing the script and execute the following command:
+
+```powershell
+.\initialize_python.ps1
+```
+
+### Features ✨
+
+- **Virtual Environment Creation**: Creates a Python virtual environment in the specified directory.
+- **Python Version Selection**: Prompts the user to select the Python version for the virtual environment.
+- **Initial File Creation**: Creates `main.py` and `__init__.py` files in the project directory.
+
+### Script Details 📝
+
+The script performs the following steps:
+
+1. Checks if Python is installed and retrieves its version.
+2. Checks if `virtualenv` is installed, and installs it if necessary.
+3. Lists available Python versions and prompts the user to select one.
+4. Creates a irtual environment  using the selected Python version5. Activates the virtual environment.
+6. Creates `main.py` and `__init__.py` files in the project directory.
+
+### Notes
+
+- Ensure you have the necessary permissions to create files and directories in the specified path.
+
+### Initialize Python Script Demo
+</details>
+
 ### Contributing 🤝
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ### Contact 📧
 
-For any questions or issues, please contact the repository owner.
+For any questions or issues, you can email me on my gmail.
 
 ### Disclaimer ⚠️
 
-This script is provided as-is without any warranty. Use it at your own risk. The author is not responsible for any damage or data loss that may occur from using this script.
+These scripts are provided as-is without any warranty. Use them at your own risk. The author is not responsible for any damage or data loss that may occur from using these scripts.
