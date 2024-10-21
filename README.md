@@ -56,6 +56,7 @@ The script performs the following steps:
 - Use the `-dryRun` switch to preview the folders that will be deleted without actually removing them.
 
 ### Cleanup Script Demo
+![Video](https://github.com/Vustron/Powershell_Utilities/blob/f9e117a6e88626015cf5c11a3311af0cfa7b7bc3/assets/cleanup.mp4)
 </details>
 
 <details>
@@ -94,6 +95,7 @@ The script performs the following steps:
 - Ensure you have the necessary permissions to create files and directories in the specified path.
 
 ### Initialize Python Script Demo
+![Video](https://github.com/Vustron/Powershell_Utilities/blob/f9e117a6e88626015cf5c11a3311af0cfa7b7bc3/assets/initialize_python.mp4)
 </details>
 
 ### Contributing 🤝
